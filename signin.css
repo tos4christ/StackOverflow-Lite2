@@ -66,6 +66,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
   min-width: inherit;
   text-align: left;
   background: white;
+  border: none;
 }
 
 
