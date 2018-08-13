@@ -79,7 +79,7 @@ a:hover {
 
 h1 {
 	position: relative;
-	margin: 0 0 5px !important;
+	margin: 0 0 5px;
 	padding: 8px 40px 8px 10px;
 	background:#623662;
 	color: #d7d7d7;
@@ -99,7 +99,7 @@ h1 a:hover {
 }
 h1 a:hover, h1 a:focus, h1 a:visited {
 	color: #fff;
-	line-height: inherit !important;
+	line-height: inherit;
 	opacity: 1;
 }
 
@@ -142,7 +142,7 @@ input, textarea, select {
 	background: #bdc3c7;
 }
 input[type="text"].qa-search-field{
-    height: 32px !important;
+    height: 32px;
 }
 .qa-search-field {
 	margin: 0 -37px 0 0;
