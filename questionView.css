@@ -450,7 +450,8 @@ input[type="text"].qa-search-field{
   .header-nav, 
   .section-nav,
   .nav-main-list,
-  .qa-q-item-title
+  .qa-q-item-title,
+qa-q-item-avatar-meta
    {
     float: none;
     text-align: justify;
