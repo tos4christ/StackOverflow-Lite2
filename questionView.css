@@ -318,7 +318,8 @@ input[type="text"].qa-search-field{
 	}
 }
 @media (min-width: 600px) {
-	.qa-q-item-main {
+	.qa-q-item-main,
+  .qa-q-item-title a{
 		width: 484px;
 	}
 }
@@ -439,6 +440,74 @@ input[type="text"].qa-search-field{
 		box-shadow: 0 0 0 0 transparent;
 	}
 
+}
+
+@media(max-width: 768px) {
+  .main-header,
+  .header-title, 
+  .logout,
+  .discuss,
+  .header-nav, 
+  .section-nav,
+  .nav-main-list,
+  .qa-q-item-title
+   {
+    float: none;
+    text-align: justify;
+    width: 100%;
+     padding: 0;
+     margin: 0;
+     border: none;
+  }
+}
+
+@media(max-width: 768px){
+  .qa-q-item-meta {
+    margin-top: 15px;  
+  }
+}
+
+@media(max-width: 768px) {
+  .qa-q-item-title {
+    margin: 0;
+  }
+}
+  
+@media(max-width: 768px) {
+  .logout,
+  .current a{
+    padding-top: 12px;
+    height: 10px;
+    
+  }
+}
+  
+@media(max-width: 768px) {
+   
+  .qa-a-count-data{
+    width: 100%;
+    text-align: justify;
+    height: 50%;
+    float: right;
+  }
+}
+
+@media(max-width: 768px) {
+  .qa-a-count-pad {
+    float: left;
+    width: 100%;
+    text-align: justify;
+    height: 50%;
+    
+  }
+}
+
+@media(max-width: 768px){
+  .qa-a-count {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 /* custom */
