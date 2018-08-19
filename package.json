@@ -15,7 +15,7 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
-    "test": "mocha dev/tests/server.test.js --compilers js:babel-register",
+    "test": "mocha tests/server.test.js --compilers js:babel-register",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "npm run build && npm test"    
   },
