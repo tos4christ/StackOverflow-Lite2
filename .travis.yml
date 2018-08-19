@@ -7,3 +7,7 @@ before_script:
 before_install:
 - npm install -g supertest
 - npm install -g mocha
+
+after_success:
+- npm run coverage
+- npm run report-coverage
