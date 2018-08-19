@@ -1,3 +1,5 @@
+before_install: cd dist
+
 language: node_js
 node_js:
 - "8"
