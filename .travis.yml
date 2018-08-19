@@ -1,7 +1,6 @@
-before_install: cd ../dist
-
 language: node_js
 node_js:
 - "8"
 before_script:
 - npm run build
+- npm run start
