@@ -17,7 +17,7 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && mocha dist/server.test.js"    
+    "start": "npm run build && mocha dist/test/server.test.js"    
   },
   "author": "",
   "license": "ISC"
