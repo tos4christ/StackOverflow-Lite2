@@ -4,3 +4,4 @@ node_js:
 before_script:
 - npm run build
 - npm run start
+- npm test
