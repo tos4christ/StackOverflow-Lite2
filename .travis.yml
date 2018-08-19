@@ -3,3 +3,7 @@ node_js:
 - "8"
 before_script:
 - npm run start
+
+before_install:
+- npm install -g supertest
+- npm install -g mocha
