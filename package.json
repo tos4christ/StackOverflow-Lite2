@@ -15,7 +15,7 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "npm run build && mocha dist/test/server.test.js"    
   },
