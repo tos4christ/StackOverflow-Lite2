@@ -1,4 +1,4 @@
-before_install: cd dist
+before_install: cd ../dist
 
 language: node_js
 node_js:
