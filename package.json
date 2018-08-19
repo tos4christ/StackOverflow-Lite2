@@ -18,7 +18,7 @@
   "scripts": {
     "test": "mocha --exit",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && node dist/test/server.test.js",
+    "start": "npm run build && test dist/test/server.test.js",
     "coverage": "babel-node ./node_modules/instanbul/lib/cli cover _mocha test/server.test.js",
     "report-coverage": "cat ./coverage/lcov.info | coveralls"
   },
