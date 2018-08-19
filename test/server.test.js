@@ -1,5 +1,5 @@
 import request from 'supertest';
-import expect from 'mocha';
+
 import app from '../app.js';
 
 let question1 = {id: 1, text: 'tosin is doing 48 hours shift duty', answers:[{text: 'this is very true', vote: 2, id: 1},{text: 'are you sure?', id: 2, vote: 3}]};
