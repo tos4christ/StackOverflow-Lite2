@@ -1,5 +1,5 @@
-import express from 'express';
-import bodyParser from 'body-parser';
+let express = require('express');
+let bodyParser = require('body-parser');
 
 
 let app = express();
@@ -78,4 +78,4 @@ app.listen(3000, () => {
   console.log('listening on port 3000');
 });
 
-export {app};
+module.exports.app = app;
