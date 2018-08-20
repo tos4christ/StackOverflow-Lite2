@@ -11,7 +11,11 @@ let question3 = {id: 3, text: 'tosin is doing 48 hours shift duty', answers:[{te
 let questionArray = [question1,question2,question3];
 
 it('Test for the get all question Array', (done) => {
-  request(app).get('/questions').expect(questionArray).end(done);
+  request(app)
+    .set('Accept', 'application/json')
+     .get('/questions')
+    .expect(questionArray)
+    .end(done);
 });
 
 it('Test for the get specific question with id 1', (done) => {
