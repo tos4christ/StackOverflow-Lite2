@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 
 const router = express.Router();
 
@@ -55,7 +55,7 @@ router.get('/:qID/answers/:aID', (req, res, next) => {
   res.json(answer);
 });
 
-module.exports = router;
+export {router};
 
 
 
