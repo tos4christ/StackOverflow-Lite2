@@ -12,8 +12,8 @@ let questionArray = [question1,question2,question3];
 
 it('Test for the get all question Array', (done) => {
   request(app)
-    .set('Accept', 'application/json')
      .get('/questions')
+     .set('Accept', 'application/json')
     .expect(questionArray)
     .end(done);
 });
